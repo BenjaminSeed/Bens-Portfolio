@@ -1,0 +1,146 @@
+/* 'Amatic SC', cursive;
+#FFFF00 yellow 
+#FAFAD2 gold */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    color: #8DAFCE;
+}
+
+body {
+    background-color: lightslategray;
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    color:darkslategrey;
+    font-size: 100px;
+    text-align: center;
+    width:auto;
+    height:auto;
+    padding: 10px;
+}
+
+.hobbies {
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+h4 {
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.qualities {
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.test-class {
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+#about-me {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    text-align: center;   
+}
+
+.ben {
+    height:auto;
+    width:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 0;
+    border-color: #8DAFCE;
+    border-width: 5px;
+}
+
+
+#Garden {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#Reading {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Description {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.me {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    margin: 5px;
+}
+
+
+.links {
+    position: static;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+}
+
+#messy {
+    block-size: auto;
+    text-align: center;
+    font-size: larger;
+}
+
+.image {
+    block-size: auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+.div-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: red;
+ }
+ .span-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    display: inline-block;
+ }
+
+ a:link {
+    font-size: x-large;
+    text-decoration: none;
+ }
+
+ a:visited {
+    color: black;
+ }
+
+ a:hover {
+    color: #FFFF00;
+ }
