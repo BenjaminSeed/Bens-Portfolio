@@ -13,16 +13,145 @@
 body {
     background-color: lightslategray;
     font-family: 'Amatic SC', cursive;
+    border: 5px solid whitesmoke;
 }
+/**********Heading*********/
 
 h1 {
-    color:darkslategrey;
+    color: white;
     font-size: 100px;
     text-align: center;
     width:auto;
     height:auto;
     padding: 10px;
 }
+span {
+    color: #FFFF00;
+}
+
+/********* h2 **********/
+
+.Description {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+/***********Links**********/
+
+a:link {
+    font-size: x-large;
+    text-decoration: none;
+ }
+
+ a:visited {
+    color: black;
+ }
+
+ a:hover {
+    color: #FFFF00;
+ }
+
+ 
+ .links {
+    height: auto;
+    width: auto;
+    background-color: lightslategray; 
+ }
+
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-weight: bold;
+ }
+    
+
+/*******Photo of Me********/
+
+.ben {
+    height:auto;
+    width:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/***********H3 and about me******/
+
+h3 {
+    color: darkslategray;
+}
+
+.test-class {
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #FFFF00;
+}
+
+.me {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    margin: 1px;
+}
+
+p {
+    color: white;
+}
+
+.intro {
+    color: slategray;
+    text-align: center;
+    position: relative;
+}
+
+span {
+    color: #FFFF00;
+} 
+
+h2 {
+    color: white;
+    margin: 10px 0px 10px;
+    font-size: 35px;
+    text-align: center;
+}
+
+h3 {
+
+    color: white;
+    margin: 5px 0px 5px;
+    font-size: 25px;
+}
+
+h4 {
+    color: #FFFF00;
+    margin-bottom: 10px;
+}
+
+#banner {
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+
+#portrait {
+    display: block;
+    width: 35%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: multiply;
+    box-shadow: 20px 20px 20px;
+}
+
+/********* Hobbies and interests *********/
 
 .hobbies {
     font-size: 50px;
@@ -41,106 +170,3 @@ h4 {
     font-family: 'Amatic SC', cursive;
     text-align: center;
 }
-
-.test-class {
-    font-size: 50px;
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-}
-
-#about-me {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    text-align: center;   
-}
-
-.ben {
-    height:auto;
-    width:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 0;
-    border-color: #8DAFCE;
-    border-width: 5px;
-}
-
-
-#Garden {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-
-#Reading {
-    display: block;
-    width: 50%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Description {
-    font-size: 35px;
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-}
-
-.me {
-    font-family: 'Amatic SC', cursive;
-    font-size: 35px;
-    margin: 5px;
-}
-
-
-.links {
-    position: static;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    font-size: 30px;
-}
-
-#messy {
-    block-size: auto;
-    text-align: center;
-    font-size: larger;
-}
-
-.image {
-    block-size: auto;
-    text-align: center;
-    font-size: x-large;
-}
-
-.div-element {
-    height: 100px;
-    width: 100px;
-    color: white;
-    background-color: red;
- }
- .span-element {
-    height: 100px;
-    width: 100px;
-    color: white;
-    background-color: blue;
-    display: inline-block;
- }
-
- a:link {
-    font-size: x-large;
-    text-decoration: none;
- }
-
- a:visited {
-    color: black;
- }
-
- a:hover {
-    color: #FFFF00;
- }
