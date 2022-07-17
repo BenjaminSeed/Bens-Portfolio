@@ -36,8 +36,6 @@ span {
     text-align: center;
     font-family: 'Amatic SC', cursive;
 }
-
-
 /***********Links**********/
 
 a:link {
@@ -179,6 +177,7 @@ h4 {
     font-size: x-large;
     text-align: left;
     padding-left: 1px;
+    padding-top: 7%;
 }
 .goals {
     color: #FFFF00;
@@ -187,6 +186,34 @@ h4 {
 
 li {
     color: white;
+    list-style: none;
+}
+
+li::before {
+    content: "\2022";
+    color: #FFFF00;
+}
+
+.future {
+    position: relative;
+    top: -465px;
+    font-size: x-large;
+    text-align: left;
+    padding-left: 75%;
+}
+.twelve {
+    color: #FFFF00;
+    font-size: xx-large;
+}
+
+li {
+    color: white;
+    list-style: none;
+}
+
+li::before {
+    content: "\2022";
+    color: #FFFF00;
 }
 
 #footer {
@@ -195,5 +222,46 @@ li {
     text-align: center;
     margin-top: 2px;
     margin-bottom: 2px;
-    padding: 10px;
+    padding: 0;
+}
+
+.arrow {
+    height:auto;
+    width:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#banner {
+    width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+#arrow {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: multiply;
+    top: -250px;
+}
+
+.contact {
+    position: relative;
+    color: white;
+    font-size: larger;
+    padding-top: -100px;
+    margin-left: 10%;
+    top: -400px;
+}
+h3 {
+    font-size: 50px;
+}
+p {
+    font-size: 25px;
 }
