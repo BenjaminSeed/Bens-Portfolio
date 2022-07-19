@@ -126,10 +126,12 @@ h2 {
 }
 
 h3 {
-
     color: white;
     margin: 5px 0px 5px;
     font-size: 25px;
+}
+span {
+    color: #FFFF00;
 }
 
 h4 {
@@ -143,6 +145,7 @@ a:link {
 }
 
 #banner {
+    display: inline-block;
     width: 100%;
     height: auto;
     left: 0px;
@@ -158,7 +161,7 @@ a:link {
     mix-blend-mode: multiply;
     box-shadow: 20px 20px 20px;
 }
-
+    
 /********* Hobbies and interests *********/
 
 .hobbies {
@@ -179,6 +182,10 @@ h4 {
     padding-left: 1px;
     padding-top: 7%;
 }
+.hero > nav {
+    padding-right: 5px;
+    display: inline-block;
+}
 .goals {
     color: #FFFF00;
     font-size: xx-large;
@@ -195,11 +202,13 @@ li::before {
 }
 
 .future {
+    display: inline-block;
     position: relative;
-    top: -530px;
+    bottom: 525px;
     font-size: x-large;
     text-align: left;
     padding-left: 70%;
+    right: auto;
 }
 .twelve {
     color: #FFFF00;
@@ -220,18 +229,21 @@ li::before {
     color: #FFFF00;
     font-size: x-large;
     text-align: center;
-    margin-top: 2px;
+    margin-top: 15px;
     margin-bottom: 2px;
     padding: 0;
 }
 
 .arrow {
+    display: inline-block;
     height:auto;
     width:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 #banner {
     width: 100%;
@@ -256,8 +268,9 @@ li::before {
     color: white;
     font-size: larger;
     padding-top: -100px;
-    margin-left: 10%;
+    margin-left: 4%;
     top: -400px;
+    text-align: center;
 }
 h3 {
     font-size: 50px;
@@ -266,8 +279,40 @@ p {
     font-size: 30px;
 }
 
-.email {
+.form > legend {
+    text-align: left;
+    margin-left: 10px;
     padding-left: 5px;
-    font-size: 35px;
     color: white;
+}
+textarea {
+    position: absolute;
+    height: 300px;
+    width: 800px;
+    margin-top: -350px;
+    margin-left:23%;
+    background-color: #FFFF00;
+    color: black;
+    border-color: white;
+    border-width: 5px;
+    font-size: x-large;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+}
+button {
+    position:relative;
+    height: 50px;
+    width: 200px;
+    margin-left: 23%;
+    margin-bottom: -25px;
+    margin-top: -10%;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #FFFF00;
+    font-size: x-large;
+    font-weight: 800;
+    color: black;
+
 }
