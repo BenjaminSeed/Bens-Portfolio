@@ -100,11 +100,11 @@ h3 {
     text-align: center;
 }
 
-span {
+.me span {
    color: #FFFF00;
 }
 
-p {
+.me > p {
     color: white;
 }
 
@@ -114,23 +114,24 @@ p {
     position: relative;
 }
 
-span {
+.intro span {
     color: #FFFF00;
 } 
 
-h2 {
+.intro > h2 {
     color: white;
     margin: 10px 0px 10px;
     font-size: 35px;
     text-align: center;
 }
 
-h3 {
+h2 + h3 {
     color: white;
     margin: 5px 0px 5px;
-    font-size: 25px;
+    font-size: 35px;
 }
-span {
+
+h3 ~ span {
     color: #FFFF00;
 }
 
@@ -140,8 +141,8 @@ h4 {
     font-size: 35px;
 }
 
-a:link {
-    font-size: x-large;
+h4 ~ a:link {
+    font-size:large;
 }
 
 #banner {
@@ -160,78 +161,6 @@ a:link {
     margin-right: auto;
     mix-blend-mode: multiply;
     box-shadow: 20px 20px 20px;
-}
-    
-/********* Hobbies and interests *********/
-
-.hobbies {
-    font-size: 50px;
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-}
-
-h4 {
-    font-size: 50px;
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-}
-
-.hero {
-    font-size: x-large;
-    text-align: left;
-    padding-left: 1px;
-    padding-top: 7%;
-}
-.hero > nav {
-    padding-right: 5px;
-    display: inline-block;
-}
-.goals {
-    color: #FFFF00;
-    font-size: xx-large;
-}
-
-li {
-    color: white;
-    list-style: none;
-}
-
-li::before {
-    content: "\2022";
-    color: #FFFF00;
-}
-
-.future {
-    display: inline-block;
-    position: relative;
-    bottom: 525px;
-    font-size: x-large;
-    text-align: left;
-    padding-left: 70%;
-    right: auto;
-}
-.twelve {
-    color: #FFFF00;
-    font-size: xx-large;
-}
-
-li {
-    color: white;
-    list-style: none;
-}
-
-li::before {
-    content: "\2022";
-    color: #FFFF00;
-}
-
-#footer {
-    color: #FFFF00;
-    font-size: x-large;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 2px;
-    padding: 0;
 }
 
 .arrow {
@@ -263,20 +192,84 @@ li::before {
     top: -250px;
 }
 
+/********* Hero *********/
+
+.hero {
+    font-size: x-large;
+    text-align: left;
+    padding-left: 1px;
+    padding-top: 7%;
+}
+.hero > nav {
+    padding-right: 5px;
+    display: inline-block;
+}
+.goals {
+    color: #FFFF00;
+    font-size: xx-large;
+}
+
+.goals li {
+    color: white;
+    list-style: none;
+}
+
+li::before {
+    content: "\2022";
+    color: #FFFF00;
+}
+
+.future {
+    display: inline-block;
+    position: relative;
+    bottom: 540px;
+    font-size: x-large;
+    text-align: left;
+    padding-left: 70%;
+    right: auto;
+}
+
+.twelve {
+    color: #FFFF00;
+    font-size: xx-large;
+}
+
+li {
+    color: white;
+    list-style: none;
+}
+
+li::before {
+    content: "\2022";
+    color: #FFFF00;
+}
+
+#footer {
+    color: #FFFF00;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    padding: 0;
+}
+
 .contact {
     position: relative;
     color: white;
     font-size: larger;
     padding-top: -100px;
-    margin-left: 4%;
     top: -400px;
     text-align: center;
 }
-h3 {
-    font-size: 50px;
-}
-p {
+
+.contact > p {
+    color: white;
     font-size: 30px;
+}
+
+#contactMe {
+    font-size: 50px;
+    color: white;
 }
 
 .form > legend {
@@ -286,27 +279,29 @@ p {
     color: white;
 }
 textarea {
-    position: absolute;
+    display: block;
     height: 300px;
     width: 800px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: -350px;
-    margin-left:23%;
+    margin-bottom: 0;
     background-color: #FFFF00;
     color: black;
     border-color: white;
     border-width: 5px;
     font-size: x-large;
-    align-items: center;
     border-radius: 10px;
     text-align: center;
+    line-height: normal;
 }
 button {
-    position:relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     height: 50px;
     width: 200px;
-    margin-left: 23%;
-    margin-bottom: -25px;
-    margin-top: -10%;
+    margin-top: 3px;
     border-width: 5px;
     border-radius: 10px;
     border-color: white;
