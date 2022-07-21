@@ -78,12 +78,14 @@ a:link {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-bottom: 20px;
 }
 
 /***********H3 and about me******/
 
 h3 {
     color: darkslategray;
+    margin-bottom: 20px;
 }
 
 .test-class {
@@ -127,7 +129,7 @@ h3 {
 
 h2 + h3 {
     color: white;
-    margin: 5px 0px 5px;
+    margin: 5px 0px 20px;
     font-size: 35px;
 }
 
@@ -145,51 +147,30 @@ h4 ~ a:link {
     font-size:large;
 }
 
-#banner {
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    left: 0px;
-    right: 0px;
-}
-
 #portrait {
-    display: block;
-    width: 25%;
+    max-width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
     mix-blend-mode: multiply;
     box-shadow: 20px 20px 20px;
 }
+#brother {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.arrow {
-    display: inline-block;
-    height:auto;
-    width:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-left: 5px;
-    padding-right: 5px;
+/******projects********/
+
+.projects {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -90px;
 }
-#banner {
-    width: 100%;
-    height: auto;
-    left: 0px;
-    right: 0px;
-}
-#arrow {
-    position: relative;
-    display: block;
-    width: 50%;
-    height: auto;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    mix-blend-mode: multiply;
-    top: -250px;
+.projects p {
+    color: white;
 }
 
 /********* Hero *********/
@@ -220,21 +201,27 @@ li::before {
 }
 
 .future {
-    display: inline-block;
+    display: flex;
     position: relative;
-    bottom: 540px;
+    bottom: 270px;
     font-size: x-large;
     text-align: left;
     padding-left: 70%;
     right: auto;
 }
 
+.future ~ li {
+    flex: auto;
+}
+
 .twelve {
+    flex-direction: column;
     color: #FFFF00;
     font-size: xx-large;
 }
 
 li {
+    flex-direction: column;
     color: white;
     list-style: none;
 }
@@ -244,21 +231,13 @@ li::before {
     color: #FFFF00;
 }
 
-#footer {
-    color: #FFFF00;
-    font-size: x-large;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 2px;
-    padding: 0;
-}
 
 .contact {
     position: relative;
     color: white;
     font-size: larger;
     padding-top: -100px;
-    top: -400px;
+    top: 50px;
     text-align: center;
 }
 
@@ -284,7 +263,7 @@ textarea {
     width: 800px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: -350px;
+    margin-top: 100px;
     margin-bottom: 0;
     background-color: #FFFF00;
     color: black;
@@ -310,4 +289,13 @@ button {
     font-weight: 800;
     color: black;
 
+}
+
+#footer {
+    color: #FFFF00;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    padding: 0;
 }
