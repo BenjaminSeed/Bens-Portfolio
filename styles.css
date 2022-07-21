@@ -14,6 +14,7 @@ body {
     background-color: lightslategray;
     font-family: 'Amatic SC', cursive;
     border: 5px solid whitesmoke;
+    text-align: center;
 }
 /**********Heading*********/
 
@@ -164,13 +165,20 @@ h4 ~ a:link {
 /******projects********/
 
 .projects {
+    margin-top: 30px;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
-    margin-top: -90px;
+    margin-top: 0px;
 }
 .projects p {
+    margin-top: 10px;
     color: white;
+}
+
+.project1 button {
+    display: flex;
+    align-items: flex-start;
 }
 
 /********* Hero *********/
@@ -202,10 +210,10 @@ li::before {
 
 .future {
     display: flex;
-    position: relative;
-    bottom: 270px;
+    position: absolute;
+    Top: 155%;
     font-size: x-large;
-    text-align: left;
+    text-align:left;
     padding-left: 70%;
     right: auto;
 }
@@ -231,12 +239,11 @@ li::before {
     color: #FFFF00;
 }
 
-
 .contact {
     position: relative;
     color: white;
     font-size: larger;
-    padding-top: -100px;
+    padding-top: -300px;
     top: 50px;
     text-align: center;
 }
@@ -251,6 +258,23 @@ li::before {
     color: white;
 }
 
+.registration {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.registration h3 {
+    padding-top: 3%;
+    font-size: 30px;
+    color: white
+}
+form {
+    display: inline-block;
+}
+
 .form > legend {
     text-align: left;
     margin-left: 10px;
@@ -263,7 +287,7 @@ textarea {
     width: 800px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 100px;
+    margin-top: 300px;
     margin-bottom: 0;
     background-color: #FFFF00;
     color: black;
@@ -274,7 +298,8 @@ textarea {
     text-align: center;
     line-height: normal;
 }
-button {
+
+.button1 button {
     display: block;
     margin-right: auto;
     margin-left: auto;
