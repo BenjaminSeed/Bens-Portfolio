@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <style>
+        <style>
         @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
         </style>
-    <link rel='stylesheet' type='text/css' href='styles.css'>
-    <title>Benjamin Seed</title>
+        <link rel='stylesheet' type='text/css' href='styles.css'>
+        <title>Benjamin Seed</title>
 </head>
 
 <body>
-<nav></nav>
-
     <header>
             <div class='links'>
              <nav>
                   <a href="pages/aboutMe.html">About</a>
-                 <a href="pages/projects.html">Projects</a>
+                 <a href="#project">Projects</a>
                  <a href="pages/blog.html">Blog</a>
                  <a href="#contactMe">Contact</a>
              </nav>
@@ -29,7 +26,7 @@
          <div class= 'intro'>
              <h2> <span>Hi!</span> I'm Ben and I am currently studying at Manchester Codes.</h2>
                 <h3>I am a budding Web <span>Developer.</span></h3>
-                <h4><a href="pages/projects.html">Take a look at my progress</a></h4>
+                <h4><a href="#project">Take a look at my progress</a></h4>
             </div> 
         </header>
      <br />
@@ -47,6 +44,18 @@
         <div id="brother"><img src="../bensPortfolio/images/Me.jpg" alt="Image of young ben and his bro" id="portrait"></div>
     </nav>
 
+    <div id="current">
+        <h3> <span>Future</span> Objectives</h3>
+        <p>In the upcoming months I am undertaking a 6 month bootcamp course with MCR codes</p>
+        <p>I plan to grow and develop my technical skills and knowlegde to hopefully gain a new career</p>
+        <p>Starting with CLI, HTML and CSS and following on with Javascript.</p>
+        <br>
+        <p>Through a mixture of independent learning, lectures and projects</p>
+        <p>I aim to build a robust portfolio of work.</p>
+        <p>I have briefly outlined my 6 month and 12 month goals</p>
+        <p>Which I will be updating on a regular basis.</p>
+    </div>
+    
     <div class='hero'>
         <nav>
             <h5 class='goals'>6 month goals</h5>
@@ -60,51 +69,56 @@
         </nav>
     </div>
 
-        <div class="projects">
-            <h3> <span>Projects</span></h3>
-          <p>Have a nosy at some of the current projects I am working on</p>
-        </div>
-
              <div class='future'>
                 <nav>
+                    <h6 class='twelve'>12 month goals</h6>
                   <ul>
-                       <h6 class='twelve'>12 month goals</h6>
                       <li>Build robust Github portfolio</li>
                         <li>Develop New skills daily</li>
                           <li>Begin SQL</li>
-                         <li>Start studying Data Science</li>
                      <li>Continue projects</li>
                     </ul>
                 </nav>
              </div>
 
+             <div class="projects">
+                <h3 id='project'><span>Projects</span></h3>
+              <p>Have a nosy at some of the current projects I am working on</p>
+            </div>
+
+        <div class="project-boxes">     
+            <div id="box1">
+                <p>project <span>1</span> </p>
+            </div>
+            <div id="box2">
+                 <p>project <span>2</span> </p>
+            </div>
+                <div id="box3">
+                    <p>project <span>3</span> </p>
+                </div>
+        </div> 
+
     <div class='contact'>
         <h3 id='contactMe'><span>Contact</span> Me </h3>
         <p> This is the part where you can reach out to me if you feel compelled to do so (and why wouldn't you!). </p>
-        <p> Fill out the form below including your name and email and I will get back to you before you know it. </p>
+        <p> Send me a message and ill out the form below including your name and email and I will get back to you before you know it. </p>
     </div>
         <br>
         <br>
         <br>
-
-<div class="registration">
-    <h3> <span>Register</span> Your intertest</h3>
-    <form action="#" method="post">
-        <p>Full Name:</p>
-        <input type="text" name="fullname" placeholder="Full Name">
-        <p>Email:</p>
-        <input type="email" name="email" placeholder="Email">
-        <button type="submit">Register Interest</button>
-    </form>
-
-</div>
 
     <div class="form">
      <textarea id="Comments"></textarea>
     </div>
 
-    <div class="button1">
-    <button>Click here to send!</button>
+    <div class="registration">
+        <form action="#" method="post">
+            <p>Full Name:</p>
+            <input type="text" name="fullname" placeholder="Full Name">
+            <p>Email:</p>
+            <input type="email" name="email" placeholder="Email">
+            <button type="submit">Register Interest</button>
+        </form>
     </div>
 
     <footer id='footer'>2022 Benjamin Seed</footer>

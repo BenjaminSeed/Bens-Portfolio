@@ -1,4 +1,6 @@
-/* 'Amatic SC', cursive;
+/* 
+background-color: lightslategray;
+'Amatic SC', cursive;
 #FFFF00 yellow 
 #FAFAD2 gold */
 
@@ -58,7 +60,7 @@ a:link {
     background-color: lightslategray; 
  }
 
- nav {
+ .links nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,19 +71,6 @@ a:link {
     font-size: xx-large;
  }
     
-
-/*******Photo of Me********/
-
-.ben {
-    height:auto;
-    width:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-bottom: 20px;
-}
-
 /***********H3 and about me******/
 
 h3 {
@@ -90,6 +79,7 @@ h3 {
 }
 
 .test-class {
+    padding-top: 5%;
     font-size: 50px;
     font-family: 'Amatic SC', cursive;
     text-align: center;
@@ -140,13 +130,15 @@ h3 ~ span {
 
 h4 {
     color: #FFFF00;
-    margin-bottom: 10px;
     font-size: 35px;
+    margin-top: 3%;
 }
 
 h4 ~ a:link {
     font-size:large;
 }
+
+/******** main image (portrait) *****/
 
 #portrait {
     max-width: 100%;
@@ -156,15 +148,42 @@ h4 ~ a:link {
 }
 #brother {
     display: block;
-    width: 30%;
+    padding-top: 2%;
+    width: 20%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
+/****** future plans******/
+#current {
+    font-weight: bolder;
+    position: relative;
+    font-size: 30px;
+    float: right;
+    padding-top: 3%;
+    padding-right: 2%;
+}
+#current h3 {
+    color: white;
+}
+
+#current p {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+p ~ p {
+    text-align: center;
+}
+
+
+
 /******projects********/
 
 .projects {
+    padding-top: 1%;
     margin-top: 30px;
     text-align: center;
     font-size: 30px;
@@ -176,24 +195,72 @@ h4 ~ a:link {
     color: white;
 }
 
-.project1 button {
+/********project boxes*****/
+
+.project-boxes {
     display: flex;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
 }
+
+#box1 {
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  border: 15px solid white;
+  border-radius: 5%;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 10px 10px 10px;
+}
+
+#box2 {
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    border: 15px solid white;
+    border-radius: 5%;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px;
+}
+
+  #box3 {
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    border: 15px solid white;
+    border-radius: 5%;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px;
+  }
+
+  #box1 p, #box2 p, #box3 p {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+  }
 
 /********* Hero *********/
 
 .hero {
+    position: relative;
     font-size: x-large;
     text-align: left;
-    padding-left: 1px;
-    padding-top: 7%;
+    padding-left: 10%;
+    padding-top: 2%;
 }
 .hero > nav {
     padding-right: 5px;
     display: inline-block;
+    padding-bottom: 5%;
 }
+
+/*******Lists*******/
+
 .goals {
+    position: relative;
     color: #FFFF00;
     font-size: xx-large;
 }
@@ -209,13 +276,10 @@ li::before {
 }
 
 .future {
-    display: flex;
-    position: absolute;
-    Top: 155%;
+    position: relative;
     font-size: x-large;
     text-align:left;
-    padding-left: 70%;
-    right: auto;
+    padding-left: 10%;
 }
 
 .future ~ li {
@@ -239,6 +303,9 @@ li::before {
     color: #FFFF00;
 }
 
+
+/*******contact section******/
+
 .contact {
     position: relative;
     color: white;
@@ -258,6 +325,9 @@ li::before {
     color: white;
 }
 
+
+/**********registration form*****/
+
 .registration {
     position: absolute;
     margin-left: auto;
@@ -266,11 +336,28 @@ li::before {
     right: 0;
     text-align: center;
 }
-.registration h3 {
-    padding-top: 3%;
-    font-size: 30px;
-    color: white
+
+.registration p {
+    color: white;
+    font-size: 25px;
+    margin: 10px 0;
 }
+
+.registration input {
+    padding: 1%;
+    font-size: 20px;
+    width: 90%;
+    color: black;
+    border-radius: 5px;
+}
+
+.registration button {
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
 form {
     display: inline-block;
 }
@@ -281,15 +368,18 @@ form {
     padding-left: 5px;
     color: white;
 }
+
+/********* comments box******/
+
 textarea {
     display: block;
-    height: 300px;
-    width: 800px;
+    height: 200px;
+    width: 600px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 300px;
+    margin-top: 4px;
     margin-bottom: 0;
-    background-color: #FFFF00;
+    background-color: pink;
     color: black;
     border-color: white;
     border-width: 5px;
@@ -297,24 +387,10 @@ textarea {
     border-radius: 10px;
     text-align: center;
     line-height: normal;
+    box-shadow: 10px 10px 10px;
 }
 
-.button1 button {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    height: 50px;
-    width: 200px;
-    margin-top: 3px;
-    border-width: 5px;
-    border-radius: 10px;
-    border-color: white;
-    background-color: #FFFF00;
-    font-size: x-large;
-    font-weight: 800;
-    color: black;
-
-}
+/******* footer *******/
 
 #footer {
     color: #FFFF00;
@@ -322,5 +398,5 @@ textarea {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 2px;
-    padding: 0;
+    padding-top: 5%;
 }
