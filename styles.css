@@ -9,7 +9,7 @@ background-color: lightslategray;
     padding: 0;
     margin: 0;
     font-family: 'Amatic SC', cursive;
-    color: #8DAFCE;
+    color: white;
 }
 
 body {
@@ -37,7 +37,6 @@ span {
 .Description {
     font-size: 35px;
     text-align: center;
-    font-family: 'Amatic SC', cursive;
 }
 /***********Links**********/
 
@@ -45,19 +44,17 @@ a:link {
     text-decoration: none;
  }
 
- a:visited {
-    color: pink;
- }
-
- a:hover {
-    color: #FFFF00;
- }
-
- 
  .links {
     height: auto;
     width: auto;
-    background-color: lightslategray; 
+ }
+
+ .links a:visited {
+    color: pink;
+ }
+
+ .links a:hover {
+    color: #FFFF00;
  }
 
  .links nav {
@@ -81,13 +78,11 @@ h3 {
 .test-class {
     padding-top: 5%;
     font-size: 50px;
-    font-family: 'Amatic SC', cursive;
     text-align: center;
     color: #FFFF00;
 }
 
 .me {
-    font-family: 'Amatic SC', cursive;
     font-size: 35px;
     margin: 1px;
     text-align: center;
@@ -108,6 +103,7 @@ h3 {
 }
 .intro button {
     padding: 40px 80px;
+    font-size: 25px;
     background-color: pink;
     color: black;
     border-color: white;
@@ -147,6 +143,9 @@ h4 {
 h4 ~ a:link {
     font-size:large;
     color: white;
+}
+.intro a:hover {
+    color:#FFFF00;
 }
 
 /******** main image (portrait) *****/
@@ -190,8 +189,6 @@ p ~ p {
     text-align: center;
 }
 
-
-
 /******projects********/
 
 .projects {
@@ -206,7 +203,6 @@ p ~ p {
     margin-top: 10px;
     color: white;
 }
-
 /********project boxes*****/
 
 .project-boxes {
@@ -220,7 +216,7 @@ p ~ p {
   color: black;
   width: 200px;
   height: 200px;
-  border: 10px solid white;
+  border: 8px solid white;
   border-radius: 5%;
   padding: 50px;
   margin: 20px;
@@ -241,7 +237,7 @@ p ~ p {
     color: black;
     width: 200px;
     height: 200px;
-    border: 10px solid white;
+    border: 8px solid white;
     border-radius: 5%;
     padding: 50px;
     margin: 20px;
@@ -253,7 +249,7 @@ p ~ p {
     color: black;
     width: 200px;
     height: 200px;
-    border: 10px solid white;
+    border: 8px solid white;
     border-radius: 5%;
     padding: 50px;
     margin: 20px;
@@ -380,6 +376,9 @@ li::before {
     color: black;
     font-weight: bold;
     margin: 10px 0;
+    border-radius: 8%;
+    box-shadow: 5px 5px 5px;
+
 }
 
 form {
