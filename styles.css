@@ -17,6 +17,7 @@ body {
     font-family: 'Amatic SC', cursive;
     border: 5px solid whitesmoke;
     text-align: center;
+
 }
 /**********Heading*********/
 
@@ -60,7 +61,7 @@ a:link {
  .links nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 10px;
     padding-left: 8%;
     padding-right: 8%;
@@ -103,7 +104,7 @@ h3 {
 }
 .intro button {
     padding: 40px 80px;
-    font-size: 25px;
+    font-size: 30px;
     background-color: pink;
     color: black;
     border-color: white;
@@ -154,7 +155,6 @@ h4 ~ a:link {
     max-width: 100%;
     height: auto;
     mix-blend-mode: multiply;
-    box-shadow: 20px 20px 20px;
     border-radius: 50%;
 }
 #brother {
@@ -172,8 +172,8 @@ h4 ~ a:link {
     position: relative;
     font-size: 30px;
     float: right;
-    padding-top: 3%;
-    padding-right: 2%;
+    padding-top: 2%;
+    padding-right: 4%;
 }
 #current h3 {
     color: white;
@@ -416,7 +416,6 @@ textarea {
 /******* footer *******/
 
 #footer {
-    color: #FFFF00;
     font-size: x-large;
     text-align: center;
     margin-top: 15px;
