@@ -46,7 +46,7 @@ a:link {
  }
 
  a:visited {
-    color: black;
+    color: pink;
  }
 
  a:hover {
@@ -106,6 +106,15 @@ h3 {
     text-align: center;
     position: relative;
 }
+.intro button {
+    padding: 40px 80px;
+    background-color: pink;
+    color: black;
+    border-color: white;
+    border-radius: 10px;
+    border: 8%;
+    box-shadow: 10px 10px 10px;
+}
 
 .intro span {
     color: #FFFF00;
@@ -137,6 +146,7 @@ h4 {
 
 h4 ~ a:link {
     font-size:large;
+    color: white;
 }
 
 /******** main image (portrait) *****/
@@ -146,6 +156,7 @@ h4 ~ a:link {
     height: auto;
     mix-blend-mode: multiply;
     box-shadow: 20px 20px 20px;
+    border-radius: 50%;
 }
 #brother {
     display: block;
@@ -206,13 +217,14 @@ p ~ p {
 
 #box1 {
   background-color: pink;
+  color: black;
   width: 200px;
   height: 200px;
-  border: 15px solid white;
+  border: 10px solid white;
   border-radius: 5%;
   padding: 50px;
   margin: 20px;
-  box-shadow: 10px 10px 10px;
+  box-shadow: 5px 5px 5px;
 }
 #box1:hover  {
     color:#FFFF00;
@@ -226,24 +238,26 @@ p ~ p {
 
 #box2 {
     background-color: pink;
+    color: black;
     width: 200px;
     height: 200px;
-    border: 15px solid white;
+    border: 10px solid white;
     border-radius: 5%;
     padding: 50px;
     margin: 20px;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 5px 5px 5px;
 }
 
   #box3 {
     background-color: pink;
+    color: black;
     width: 200px;
     height: 200px;
-    border: 15px solid white;
+    border: 10px solid white;
     border-radius: 5%;
     padding: 50px;
     margin: 20px;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 5px 5px 5px;
   }
 
   #box1 p, #box2 p, #box3 p {
@@ -339,7 +353,7 @@ li::before {
 /**********registration form*****/
 
 .registration {
-    position: absolute;
+    position: flex;
     margin-left: auto;
     margin-right: auto;
     left: 0;
